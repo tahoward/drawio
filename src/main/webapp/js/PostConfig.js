@@ -6,3 +6,9 @@
 window.VSD_CONVERT_URL = null;
 window.EMF_CONVERT_URL = null;
 window.ICONSEARCH_PATH = null;
+
+// https://github.com/jgraph/drawio/issues/642
+App.prototype.isDriveDomain = function()
+{
+    return true;
+};
